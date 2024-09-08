@@ -119,14 +119,13 @@ public class Lutador {
 
     //Método contrutor:
 
-    public Lutador(String nome, String nacionalidade, int idade, double altura, double peso, String categoria,
+    public Lutador(String nome, String nacionalidade, int idade, double altura, double peso,
             int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
         this.altura = altura;
         this.peso = peso;
-        this.categoria = categoria;
         this.vitorias = vitorias;
         this.derrotas = derrotas;
         this.empates = empates;
@@ -135,13 +134,13 @@ public class Lutador {
     //Métodos
     public void  apresentar(){
         System.out.println("--------------------");
-        System.out.println("Lutador: "+ getNome());
-        System.out.println("Origem: "+ getNacionalidade());
-        System.out.println(getIdade() + " anos");
-        System.out.println("Pesando "+ getPeso() + "kg");
-        System.out.println("Ganhou: "+ getVitorias());
-        System.out.println("Perdeu: "+ getDerrotas());
-        System.out.println("Empatou: "+ getEmpates());
+        System.out.println("Apresentando o Lutador: "+ this.getNome());
+        System.out.println("Origem: "+ this.getNacionalidade());
+        System.out.println(this.getIdade() + " anos");
+        System.out.println("Pesando "+ this.getPeso() + "kg");
+        System.out.println("Ganhou: "+ this.getVitorias());
+        System.out.println("Perdeu: "+ this.getDerrotas());
+        System.out.println("Empatou: "+ this.getEmpates());
     }
 
     public void status(){
