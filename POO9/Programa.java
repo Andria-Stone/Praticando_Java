@@ -6,6 +6,7 @@ public class Programa {
 
         Mamifero m = new Mamifero();
         Peixe p = new Peixe();
+        Canguru c = new Canguru();
 
         m.setPeso(35.6);
         m.alimentar();
@@ -13,6 +14,9 @@ public class Programa {
 
         p.alimentar();
         p.locomover();
+
+        c.alimentar();
+        c.locomover();
         
     }
 }
